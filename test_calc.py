@@ -4,7 +4,7 @@ import calc
 
 class Test(unittest.TestCase):
     """
-    Testss pour les fonctions de calc
+    Tests pour les fonctions de calc
     """
 
     def test_add(self):
