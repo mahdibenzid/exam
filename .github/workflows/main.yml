@@ -1,9 +1,9 @@
-name: workflow Wf-devops
+name: Update the container pythonproject
 
 on:
   push:
     branches:
-     - 'main'
+      - 'main'
 
 jobs:
   docker:
@@ -29,6 +29,6 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           context: .
-          file: ./Dockerfile
+          file: ./DockerFile
           push: true
           tags: mahdibenzid/exam:1.0.${{github.run_number}}
