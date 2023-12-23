@@ -4,7 +4,7 @@ import calc
 
 class Test(unittest.TestCase):
     """
-    Tests pour les fonctions de calc MAHDI-RIADH
+    Tests pour les fonctions de calc MAHDI-RIADH zz
     """
 
     def test_add(self):
