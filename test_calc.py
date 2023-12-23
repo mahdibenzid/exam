@@ -1,10 +1,10 @@
 import unittest
-import calc
+import calc 
 
 
 class Test(unittest.TestCase):
     """
-    Tests pour les fonctions de calcc
+    Tests pour les fonctions de calc MAHDI-RIADH
     """
 
     def test_add(self):
